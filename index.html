@@ -16,6 +16,9 @@
             background-position: center; 
             background-repeat: no-repeat;
             background-attachment: fixed; 
+            display:flex;
+            justify-content: center;
+            align-items: center;
             }
             .container {
              background-color: white;
@@ -129,15 +132,20 @@
                 padding:20px;
                 border-radius:25px;
                 box-shadow: 0 8px 20px rgba(196, 35, 35, 0.2);
-                max-width:600px;
-                margin:40 px auto;
+                width:600px;
+                margin:20px auto ;
                 text-align: center;
                 transition:transform 0.3s;
-                margin-top:20px;
+                
             }
             .music-box:hover{
                 transform:scale(1.02);
             }
+            .music-box iframe {
+            display: block;        /* ensures the iframe obeys centering */
+            margin: 0 auto;        /* centers the iframe inside the box */
+            border-radius: 12px;   }
+        
         </style>
     </head>
 
