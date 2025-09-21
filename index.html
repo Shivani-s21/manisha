@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Manisha❤️</title>
+        <link rel="icon" href="io.png">
+        <style>
+
+             body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #c293c5b1;
+            text-align: center;
+            padding: 50px;
+            background-image: url('hi2.jpeg');
+            background-size: cover;      
+            background-position: center; 
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            }
+            .container {
+             background-color: white;
+             max-width: 600px;
+              margin: 0 auto;
+              padding: 50px;
+              border-radius: 25px;
+              box-shadow: 0 8px 20px rgba(196, 35, 35, 0.2);
+              margin-bottom: 30px;
+              
+              }
+
+            h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 0px;
+            }
+
+            p   {
+            color: #555;
+            font-size: 1.1em;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 0 auto 30px auto;
+            }
+
+            input {
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 250px;
+            margin-right: 10px;
+            }
+
+            button {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.5s;
+            }
+            button:hover {
+            background-color: #45a049;
+            }
+
+            #output {
+            margin-top: 20px;
+            font-size: 1.3em;
+            color: #222;
+            font-weight: bold;
+            opacity: 0;
+            transition: opacity 0.7s ease-in-out;
+            }
+            #output.show {
+            opacity: 1;
+            }
+            hr {
+            margin: 40px 0;
+            border: 0;
+            height: 1px;
+            background: #ccc;
+            }
+            .photos {
+                margin-top: 50px;
+                margin-bottom:20px;
+                padding:10px;
+                background-color:white;
+                border-radius: 20px;
+                box-shadow:0 8px 20px rgba(196, 35, 35, 0.2);
+                margin:0 auto;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                max-width:700px;
+                transition:transform 0.3s;
+            }
+            .photos h1{
+                margin-bottom:20px;
+                font-size:1.5em;
+            }
+            .i{
+                height:400px;
+                width:200px;
+                align-items: flex-start;
+                margin-top: 30px;
+                border:#ccc solid;
+                border-width:3px;
+                margin-left:5px;
+                border-radius:30px;
+                object-fit: cover;
+                transition:transform 0.3s ;
+
+            }
+            .i-row
+            {
+                display:flex;
+                justify-content: center;
+                gap:43px;
+                margin-top: 20px;
+            }
+            .i:hover{
+                transform: scale(1.05);
+            }
+            .music-box
+            {
+                background-color:white;
+                padding:20px;
+                border-radius:25px;
+                box-shadow: 0 8px 20px rgba(196, 35, 35, 0.2);
+                max-width:600px;
+                margin:40 px auto;
+                text-align: center;
+                transition:transform 0.3s;
+                margin-top:20px;
+            }
+            .music-box:hover{
+                transform:scale(1.02);
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+
+            <center>
+            <h1 id="h1" style="color: black; font-family: 'Times New Roman', Times, serif;">Manisha❤️</h1>
+             <p>Manisha is a ara loosu or in other words we call her a kolaar🫠.and full-time vibe queen. Always up for fun, she’s equal parts playful, chill, and impossible not to like.</p></center>
+            <hr>
+            <input id="name" type="text" placeholder="More about her?😉">
+             <button onclick="myFunction()">click me</button>
+             <p id="output"></p>
+        </div>
+        <script>
+            
+            function myFunction() {
+                const user=document.getElementById("name").value;
+                document.getElementById("output").innerHTML = "<em title='muah'>Part chaos, part curiosity, all tease. Mainsha’s specialty? Making you wonder what happens next✌️</em> " + user + ".";
+                 output.classList.add("show"); 
+            }
+
+
+        </script>
+        <div class="photos">
+            <h1>Manisha 😎</h1>
+           <img class="i" src="si.jpeg" >
+           <img class="i" src="ma.jpeg">
+           <img class="i" src="babe.jpeg">
+           <img class="i" src="ba.jpeg">
+           <img class="i" src="a.jpeg">
+           <img class="i" src="b.jpeg">
+           <img class="i" src="c.jpeg">
+           <img class="i" src="d.jpeg">
+           <h2></h2>
+
+        </div>
+        <div class="music-box">
+            <h2>Manisha's vibe🎶</h2>
+            <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7yXWnyLWQEn1A25agJSElr?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+
+    </body>
+ </html>
